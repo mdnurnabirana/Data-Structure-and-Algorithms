@@ -13,8 +13,6 @@ int linearSearch(const vector<int>& arr, int target) {
 int main() {
     vector<int> vec{1, 2, 3, 9, 10, 15, 18};
     int target = 1;
-
-    cin >> target;
     
     int index = linearSearch(vec, target);
     
